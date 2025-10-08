@@ -23,3 +23,4 @@ barplot(table1, beside=TRUE)
 abline(h=0)
 
 mean(table1)
+xtabs(age~gender+accommodation)/table1
